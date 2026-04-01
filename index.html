@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Hosting Sederhana</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(120deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+    }header {
+  padding: 50px 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.btn {
+  background: white;
+  color: #2575fc;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ddd;
+  transform: scale(1.1);
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  display: inline-block;
+  width: 200px;
+  animation: slideUp 1.5s ease;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(-20px);} 
+  to {opacity: 1; transform: translateY(0);} 
+}
+
+@keyframes slideUp {
+  from {opacity: 0; transform: translateY(50px);} 
+  to {opacity: 1; transform: translateY(0);} 
+}
+
+  </style>
+</head>
+<body><header>
+  <h1>Hosting Keisa 🌐</h1>
+  <p>Web hosting sederhana, cepat, dan lucu ✨</p>
+  <a href="#" class="btn">Mulai Sekarang</a>
+</header><section>
+  <div class="card">
+    <h3>Paket Basic</h3>
+    <p>Rp10k/bulan</p>
+    <button class="btn">Pilih</button>
+  </div>  <div class="card">
+    <h3>Paket Pro</h3>
+    <p>Rp25k/bulan</p>
+    <button class="btn">Pilih</button>
+  </div>  <div class="card">
+    <h3>Paket Premium</h3>
+    <p>Rp50k/bulan</p>
+    <button class="btn">Pilih</button>
+  </div>
+</section></body>
+</html>
